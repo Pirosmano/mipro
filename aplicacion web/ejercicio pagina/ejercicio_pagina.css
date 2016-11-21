@@ -1,0 +1,66 @@
+body {
+	background-image: url("http://www.technocrazed.com/wp-content/uploads/2015/12/Brick-wallaper-For-Background-5.jpg");
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+#head1 {
+    text-align: center;
+}
+
+li a{
+	background-image:url("http://media.gettyimages.com/videos/grunge-background-video-id101229774?s=640x640");
+	background-repeat: no-repeat;
+	text-align:center;
+	text-decoration:none;
+	display: block;
+	padding:25px;
+	font-size:25px;
+	color:#fff
+}
+
+#menu > li {
+	float:left;
+}
+
+li a:hover{
+	background-image:url("http://vignette3.wikia.nocookie.net/hieloyfuego/images/9/91/Pergamino-medio.png/revision/latest?cb=20121003091304");
+	background-repeat: no-repeat;
+	color:#000
+
+}
+li ul{
+	background-image:url("http://vignette3.wikia.nocookie.net/hieloyfuego/images/9/91/Pergamino-medio.png/revision/latest?cb=20121003091304");
+	background-repeat: no-repeat;
+	display:none;
+	position:absolute;
+	min-width:30px
+}
+li:hover > ul{
+	display:block;
+}
+footer{
+	color:#fff;
+	width: 94%;
+	padding: 3%;
+	border-top: 5px solid #a6a6a6;
+	text-align: center;
+}
+.texto1 {
+	text-align:center;
+	color:#000000;
+}
+.texto {
+	text-align:center-left;
+	color:#000000;
+}
+.texto ol{
+	text-align:center-left;
+	color:#000000;
+}
+#papelote {
+	background-image:url("http://vignette3.wikia.nocookie.net/hieloyfuego/images/9/91/Pergamino-medio.png/revision/latest?cb=20121003091304");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

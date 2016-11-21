@@ -1,0 +1,36 @@
+H2 {
+    font-family: "open sans", sans-serif;
+	font-size: 25px;
+	color: blue;
+	text-align: center
+	}
+.miclase {
+	    color: red;
+}
+.miclase2 {
+	color: blue;
+	background-color: yellow;
+	text-align: center;
+	font-family: arial-serif;
+	font-size: 50px;
+
+}
+section p.miclase{
+		text-decoration: line-through;
+		
+}
+section p#miidpar{
+	color: orange;
+	text-decoration: underline;
+}
+section p {
+	font-weight: bold;
+	
+	
+}
+#miidpar {
+	text-align: right;
+}
+body {
+	background: rgb(255,42,0);
+}

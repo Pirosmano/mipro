@@ -1,0 +1,37 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>XHTML 5.1 blank page</title>
+  </head>
+
+  <body>
+		<form action="procesar.php">
+		<fieldset><legend><b>DATOS PERSONALES</b></legend>
+			<label>nombre:</label>
+			<br>
+			<input type="text" name="nombre" />
+			<br>
+			<label>edad:</label>
+		
+			<br>
+			<input type="number" name="edad" min="0" max="100" step="10" value="30" />
+			<br>
+			<input type="submit" value="crear usuario" />
+		</fieldset>
+			<br>
+		<fieldset><b>OTROS DATOS</b></legend>
+			<input type="radio" name="genero" value="varón">varón</input>
+			<input type="radio" name="genero" value="hembra">hembra</input>
+			<input type="radio" name="genero" value="otro">otro</input>
+			<br>
+		<label><b>AFICCIONES</b></label>
+			<input type="checkbox" name="aficcion1" value="wow">wow</input>
+			<input type="checkbox" name="aficcion2" value="lol">lol</input>
+			<input type="checkbox" name="aficcion3" value="smite">smite</input>
+			<input type="checkbox" name="aficcion3" value="dota">dota</input>
+			<input type="checkbox" name="aficcion3" value="overwatch">overwatch</input>
+		</fieldset>
+		</form>
+  </body>
+</html>

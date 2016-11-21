@@ -1,0 +1,82 @@
+body {
+    background-image: url("body_background.jpg")
+}
+#recuadro {
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    
+}
+#logo {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+#cabecera {
+    color: #0033cc;
+    
+}
+#navigator {
+    border-top: 1px solid #999999;
+    padding-top: 10px;
+    padding-right: 1%;
+    color: #0033cc;
+}
+a:link{
+    text-decoration: none;
+    color: #0033cc;
+    padding-right: 13px;
+}
+#padding {
+    padding: 15px;
+}
+#img {
+    border: 10px solid #bfbfbf;
+    width: 97%; height: auto;
+}
+#imgdiv {
+    padding-top: 10px;
+    text-align: center;
+}
+#cuadradito1 {
+    overflow: hidden;
+    float: right;
+    padding: 2%;
+    width: 30%;
+    background-color: #ffe066;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #cca300;
+}
+#cuadradito2 {
+    overflow: hidden;
+    float: right;
+    padding: 2%;
+    width: 30%;
+    background-color: #ffe066;
+    font-size: 15px;
+    border: 1px solid #cca300;
+}
+.texto {
+    width: 60%;
+    text-align: left;
+}
+#titulillo {
+    width: 60%;
+    text-align: left;
+}
+#recuadro>p h {
+    float: left;
+}
+footer {
+    border-top: 1px solid #1a1aff; 
+    background-color: #bfbfbf;
+}
+#futer {
+    font-size: 10px;
+    padding: 1%;
+    text-decoration: underline;
+    text-align: left;
+}
+#futer>p {
+    text-align: right;
+}
